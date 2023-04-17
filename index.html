@@ -33,7 +33,7 @@
 
     <main>
       <section>
-        <h3 id="updates">Updates</h3>
+        <h2 id="updates">Updates</h2>
         <span>
           Lorem ipsum dolor sit amet. Ex fuga unde sed veritatis fugit 
           sed totam molestiae ad ipsam facilis et sint cumque qui nisi 
@@ -46,29 +46,42 @@
           natus quia ab omnis debitis et vero laudantium. Est sequi dicta sit alias 
           consequatur est porro aliquam est commodi nihil et animi ipsam. 33 quod placeat 
           aut culpa voluptatum est nostrum iusto vel doloremque accusantium et sint quis.
-          
-          
         </span>
       </section>
 
       <section>
-        <h3 id="new-ideas">New Ideas</h3>
+        <h2 id="new-ideas">New Ideas</h2>
         <div>
           Qui nemo ipsam qui <strong>esse quis et tempora molestias</strong> eos praesentium 
           galisum ut commodi Quis sed voluptas quod vel ullam enim. Et porro 
           itaque et quam sunt et dolorem harum et deleniti labore. Et voluptatem 
           maiores ut nemo tempora nam perferendis doloremque aut facere porro ex 
           atque pariatur ab dolor repella:
-          <ul>
-            <li><b>Qui explicabo: </b>Magni hic nihil</li>
-            <li><b>Praesentium: </b>aut perspiciatis</li>
-            <li><b>Ut illo omnis: </b>qui dolorum consectetur qui dolores repellat eos aliquid vero et molestias dolores.</li>
-          </ul>
+          <br><br>
+
+          <details>
+            <summary><b>Click to see options:</b></summary>
+            <ul>
+              <li><b>Qui explicabo: </b>Magni hic nihil</li>
+              <li><b>Praesentium: </b>aut perspiciatis</li>
+              <li><b>Ut illo omnis: </b>qui dolorum consectetur qui dolores repellat eos aliquid vero et molestias dolores.</li>
+            </ul>
+          </details>
+          <br>
+
+          Et nisi voluptas et inventore eius et ducimus reprehenderit est quidem
+          cupiditate est ratione repellat aut modi dolore. Et reiciendis unde et 
+          libero quaerat in similique quis. Aut veritatis eveniet qui dolores nesciunt 
+          ut sunt minima aut necessitatibus dolores. Et cumque ullam 33 ullam 
+          consequuntur vel odio corrupti et dicta dolores.
+
+          <h4>Prototyped Video:</h4>
+          <video controls src="video110.mp4" width="500">
         </div>
       </section>
 
       <section>
-        <h3 id="finances">Finances</h3>
+        <h2 id="finances">Finances</h2>
         <div>
           <em>Over 45,000</em> odio nisi ab dolores aliquid aut inventore perferendis ut voluptatem 
           illo quo corrupti atque. Sit nesciunt neque ea minus fugiat ut officiis 
@@ -86,4 +99,67 @@
         </div>
       </section>
     </main>
+
+    <h2>Post-Meeting</h2>
+    <form>
+      <fieldset>
+        <h4>1. What day is today?</h4>
+        <input type="radio" id="wednesday" name="day" value="Wednesday">
+        <label for="Wednesday">Wednesday</label><br>
+        <input type="radio" id="thursday" name="day" value="Thursday">
+        <label for="Thursday">Thursday</label><br>
+        <input type="radio" id=sunday" name="day" value="Sunday">
+        <label for="Sunday">Sunday</label><br>
+
+        <h4>2. What is today's date?</h4>
+        <label for="date">Date: </label>
+        <input type="date" id="date" name="date">
+
+        <h4>3. Select the foods that you like.</h4>
+        <input type="checkbox" id="sushi" name="food1" value="Sushi">
+        <label for="food1"> Sushi</label><br>
+        <input type="checkbox" id="pizza" name="food2" value="Pizza">
+        <label for="food2"> Pizza</label><br>
+        <input type="checkbox" id="curry" name="food3" value="Curry">
+        <label for="food3"> Curry</label><br><br>
+
+        <h4>4. Please sign your name.</h4>
+        <label for="name">x</label>
+        <input type="text" id="name" name="name">
+
+        <h4>5. What was been your favorite CSE class?</h5>
+        <textarea id="story" name="story" rows="4" cols="20">ex: CSE 8A</textarea>
+
+        <h4>6. What is your major?</h4>
+        <input list="major-list" id="major" name="major">
+        <datalist id="major-list">
+          <option value="Computer Science">
+          <option value="Computer Engineering">
+          <option value="Cognitive Science">
+          <option value="Data Science">
+        </datalist>
+
+        <h4>7. What grade did you receive in CSE 100?</h4>
+        <select name="grade" id="cars">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="F">F</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <hr>
+
+
+    <footer>
+      <p>
+        CSE 110 Lab 2<br>
+        Wilson Nguyen<br>
+        A16646477
+      </p>
+    </footer>
 </html>
