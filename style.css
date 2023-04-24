@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "someFont";
+    src: url('SouthernAire_Personal_Use_Only.ttf') format('truetype');
+}
+
+body {
+    background-color: rgba(238, 130, 238, 0.3);     /* background color and rgb */
+    display: inline;
+}
+  
+h1 {
+    color: navy;                                    /* color name */
+    font-size: 2em;                                   /* relative unit */
+    text-align: center;
+    text-decoration: underline;
+    font-family: someFont;
+}
+
+h2 {
+    color: #250;                                    /* hexadecimal color */
+    font-size: 30px;                                  /* absolute unit */
+}
+
+h3 {
+    color: black;
+    font-size: 15px;                                  /* absolute unit */
+}
+
+header {                                            
+    color: hsl(265, 19%, 50%);                      /* hsl color */
+}
+
+img {
+    border-style: solid;
+    border-color: blue;
+    border-width: 0.1in;
+    border-radius: 1cm;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left:  10px;
+
+    padding: 10px 10px 10px 10px;
+
+    max-width: 400px;
+    max-height: 400px;
+
+    position: relative;
+}
+
+video {
+    border: 0.1in dashed green;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+    margin: 5px 5px 5px 5px;
+    width: 500px;                                      /* absolute unit */
+    height: 60vh;                                     /* relative unit */
+    position: static;
+}
+
+p {
+    color: black;
+    font-size: 0.5em;                                 /* relative unit */ 
+}
+
+ul {
+    display: inline-block;
+}
+
+ol {
+    display: block;
+}
+
+h6 {
+    display: none;
+}
+
+button:hover {
+    color: green;
+}
+
+button:active {
+    color: pink;
+}
+
+#finances {
+    color: red;
+}
+
+.para {
+    color: orange;
+    font-size: 16px;
+}
+
+* {
+    color: darkred;
+}
+
+a[href="#finances"] {
+    color: darkred;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container h2 {
+    font-size: 18;
+}
